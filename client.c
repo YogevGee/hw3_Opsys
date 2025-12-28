@@ -14,6 +14,7 @@
 
 #define MAX_LINE 256
 
+// print error (perror) and exit immediately.
 static void die(const char *msg) {
     perror(msg);
     exit(1);
